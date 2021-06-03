@@ -6,21 +6,20 @@
   color: #6c6b6b;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-
-
-header{
+header {
   width: 90%; /*横幅90%*/
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
 }
 
-header .heading { /*headerタグ内のheadingクラスにのみ反映される*/
-  font-size:32px;
+header .heading {
+  /*headerタグ内のheadingクラスにのみ反映される*/
+  font-size: 32px;
 }
 
 .nav-list {
@@ -34,7 +33,6 @@ header .heading { /*headerタグ内のheadingクラスにのみ反映される*/
   display: inline-block;
   margin: 0 20px;
 }
-
 
 .main-visual {
   width: 100%; /* 横幅いっぱい */
@@ -69,9 +67,8 @@ footer {
   text-align: center;
   line-height: 120px;
   background-color: #848282;
-
 }
 
-.footer-txet{
+.footer-txet {
   color: #fff;
 }
