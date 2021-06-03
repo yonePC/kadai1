@@ -23,16 +23,14 @@
   background-color: pink; /*背景色pink*/
 }
 
-
-
 .main-visual {
   width: 100%; /* 横幅いっぱい*/
   height: 300px; /*高さ300px*/
   background-color: orange; /*背景色orange*/
 }
 
-.main-visual-content{
-  width: 350px; /*横幅350px*/ 
+.main-visual-content {
+  width: 350px; /*横幅350px*/
   height: 300px; /*親の高さに揃える*/
   background-color: gold; /*背景色gold*/
 }
@@ -41,6 +39,20 @@
   width: 100%; /*横幅いっぱい */
   height: 1400px; /*高さ1400px（多めに設定*/
   background-color: green; /* 背景色green */
+  display: flex; /*Flexboxの利用*/
+  justify-content: center; /*子要素の横並び・中央寄せ*/
+}
+
+.blog {
+  width: 600px; /*横幅600px*/
+  height: 600px; /*高さ600px*/
+  background-color: limegreen; /*背景色limegreen*/
+}
+
+.sidebar {
+  width: 240px; /*横幅240px*/
+  height: 600px; /*高さ600px*/
+  background-color: palegreen; /*背景色palegreen*/
 }
 
 .footer {
@@ -48,5 +60,3 @@
   height: 120px; /*高さ120px*/
   background-color: blue; /*背景色blue*/
 }
-
-
