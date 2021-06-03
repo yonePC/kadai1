@@ -11,20 +11,42 @@
   background-color: red; /* 背景色red */
 }
 
+.heaader-top {
+  width: 100%; /*横幅いっぱい*/
+  height: 70px; /*高さ70px*/
+  background-color: hotpink; /*背景色hotpink*/
+}
+
+.heder-bottom {
+  width: 100%; /*横幅いっぱい*/
+  height: 50px; /*高さ50px */
+  background-color: pink; /*背景色pink*/
+}
+
+
+
 .main-visual {
   width: 100%; /* 横幅いっぱい*/
   height: 300px; /*高さ300px*/
   background-color: orange; /*背景色orange*/
 }
 
-.main{
-  width: 100%; /*横幅いっぱい */
- height: 1400px; /*高さ1400px（多めに設定*/
- background-color: green; /* 背景色green */
+.main-visual-content{
+  width: 350px; /*横幅350px*/ 
+  height: 300px; /*親の高さに揃える*/
+  background-color: gold; /*背景色gold*/
 }
 
-.footer{
+.main {
+  width: 100%; /*横幅いっぱい */
+  height: 1400px; /*高さ1400px（多めに設定*/
+  background-color: green; /* 背景色green */
+}
+
+.footer {
   width: 100%; /*横幅いっぱい*/
   height: 120px; /*高さ120px*/
-  background-color: blue /*背景色blue*/
+  background-color: blue; /*背景色blue*/
 }
+
+
