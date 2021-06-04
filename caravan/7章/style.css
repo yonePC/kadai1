@@ -72,13 +72,13 @@ main {
   margin-right: 30px; /*領域の右側余白*/
 }
 
-.blog-handing{
-  border-bottom: 8px solid #f7f7f7 ;
+.blog-handing {
+  border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
 }
 
-.blog-item{
+.blog-item {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px slid #f7f7f7;
@@ -86,29 +86,28 @@ main {
   justify-content: flex-start;
 }
 
-.blog-box{
+.blog-box {
   padding-top: 50px;
 }
 
-.blog-image{
+.blog-image {
   height: 180px;
 }
 
-.blog-text{
+.blog-text {
   padding: 25px 0 0 30px;
 }
 
-.blog-text-heading{
+.blog-text-heading {
   padding-bottom: 15px;
 }
 
-.blog-date{
+.blog-date {
   font-size: 12px;
   display: inline-block;
 }
 
-
-.category{
+.category {
   display: inline-block;
   padding: 5px 8px;
   background-color: #acabab;
@@ -116,7 +115,6 @@ main {
   color: #fff;
   font-size: 11px;
 }
-
 
 .sidebar {
   width: 230px;
